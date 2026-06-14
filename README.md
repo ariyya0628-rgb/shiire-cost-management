@@ -32,6 +32,7 @@
 ├─ tests/
 │  └─ gasLogic.test.js
 └─ docs/
+   ├─ user_manual.md
    ├─ setup_guide.md
    └─ development_spec.md
 ```
@@ -43,8 +44,15 @@
 - Apps Script 本体: `apps-script/Code.gs`
 - Apps Script 設定: `apps-script/appsscript.json`
 - セットアップ手順: `docs/setup_guide.md`
+- 第三者向けの総合手順書: `docs/user_manual.md`
 
 初回は Apps Script で `setupPurchaseCostSystem` を実行してください。フォーム、仕入DB、未確認リスト、日別集計、店舗別集計、支払方法別集計が作成されます。
+
+## 初めて見る人向け
+
+このプロジェクトを初めて見る人は、まず `docs/user_manual.md` を読んでください。
+
+システムの目的、初回セットアップ、日常の入力方法、スプレッドシートの見方、トラブル対応までまとめています。
 
 ## Codexへの初回指示
 
